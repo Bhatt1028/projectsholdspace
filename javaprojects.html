@@ -16,7 +16,7 @@
 </form>
 
 <form name="project2">
-    <h4>Mini project 1</h4>
+    <h4>Temperature check</h4>
     Enter temperature (Degrees Kelvin): <input type="text" name="input1" placeholder="type temperature here...">
     <button type="button" onclick="document.project2.result.value=tempbug()">go</button>
     <br><br>
@@ -28,7 +28,20 @@
     <img id="winter" src="" height="100">
 </form>
 
+<form name="project3">
+    <h4>Calorie counter</h4>
+    <p>Welcome to the calorie counter! Using this converter, you can translate the time you spend doing certain activities
+    into how many calories you burnt doing said activities!
+    <br><br>
+    The usable codes are= "wl"=walking "tv"=watching TV "rn"=running "lw"=lifting weights "vg"=video games "ef"=eating food
+    </p>
 
+    Enter your activity code here!  <input type="text" name="input1" placeholder="type activity here">
+    Enter time spent (minutes) here! <input type="text" name="input2" placeholder="type minutes here">
+    <button type="button" onclick="document.project3.result.value=calcount()">go</button>
+
+
+</form>
 
 </body>
 </html>
