@@ -266,3 +266,18 @@ function dropdown()
     return activity;
 
 }
+
+/*
+<form name="project5">
+    <select id="mylist">
+
+        <option>Walking</option>
+        <option>Running</option>
+
+    </select>
+    <button type="button" onclick="project5.result.value=dropdown()">Click</button>
+    <input name="result"  readonly="true">
+
+
+</form>
+ */
